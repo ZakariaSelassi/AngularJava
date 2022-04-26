@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExerciceModule } from './exercice/exercice.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     DemoRoutingModule,
-    ExerciceModule
+    ExerciceModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
